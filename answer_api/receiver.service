@@ -1,0 +1,15 @@
+[Unit]
+Description=System service to receive Answer cases
+After=network.target
+
+[Service]
+Type=simple
+User=answerbe
+EnvironmentFile=/home/answerbe/backend/environment
+WorkingDirectory=/home/answerbe/backend
+# ExecStart=/usr/bin/bash -c 'cd /home/answerbe/backend; source /home/answerbe/.local/share/virtualenvs/backend-t85vsMNX/bin/activate; /home/answerbe/.local/share/virtualenvs/backend-t85vsMNX/bin/python /home/answerbe/backend/receivecase.py --test'
+ExecStart=/usr/bin/sh /home/answerbe/backend/runreceive.sh
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

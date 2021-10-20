@@ -1,0 +1,22 @@
+{
+    "origin": "UTSW",
+    "text": "My best comment yet",
+    "caseId": "ORD544",
+    "geneId": null,
+    "variantId": "5af21b7e0d582c179d295385",
+    "userId": 1,
+    "createdDate": null,
+    "modifiedDate": null,
+    "deleted": null,
+    "isVisible": true,
+    "markedForDeletion": false,
+    "pmids": ["123",
+    "456",
+    "789"],
+    "isTumorSpecific": false,
+    "isCaseSpecific": true,
+    "isVariantSpecific": true,
+    "isGeneSpecific": false,
+    "category": "Variant Function",
+    "_id": null
+}

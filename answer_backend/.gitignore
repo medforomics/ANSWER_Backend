@@ -1,0 +1,15 @@
+*.pyc
+*.pem
+*.json
+*.gz
+*.vcf
+__pycache__/
+apisecret.py
+.idea/
+rabbitmq_test.py
+clarityutils/
+venv/
+appris_data.appris.txt
+.python-version
+variantparser/__pycache__/
+**/*cache*/

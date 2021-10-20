@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==1.0.2"
+pymongo = "==3.7.2"
+flask-basicauth = "==0.2.0"
+jsonpickle = "~=1.1"
+biopython = "==1.73"
+requests = "==2.21.0"
+pysam = "==0.15.2"
+jira = "==2.0.0"
+systemd = "~=0.16"
+"beautifulsoup4" = "==4.6.3"
+cryptography = "~=2.6.1"
+lxml = "==4.2.5"
+matplotlib = "==2.2.2"
+maya = "==0.3.4"
+pika = "==1.1"
+pyjwt = "==1.7.1"
+pyliftover = "==0.3"
+pytest = "==3.5.1"
+scipy = "==1.1.0"
+uwsgi = "~=2.0"
+pandas = "~=0.25.0"
+azure = "~=4.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6.8"
